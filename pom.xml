@@ -44,6 +44,11 @@
 		</dependency>
 
 		<dependency>
+			<groupId>dev.miku</groupId>
+			<artifactId>r2dbc-mysql</artifactId>
+			<version>0.8.2.RELEASE</version>
+    	</dependency>
+		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
