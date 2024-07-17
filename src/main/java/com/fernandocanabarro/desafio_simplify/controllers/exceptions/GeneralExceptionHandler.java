@@ -29,7 +29,7 @@ public class GeneralExceptionHandler {
     @ExceptionHandler(WebExchangeBindException.class)
     public Mono<ResponseEntity<ValidationError>> invalidData(WebExchangeBindException e, ServerHttpRequest request){
         HttpStatus status = HttpStatus.UNPROCESSABLE_ENTITY;
-        ValidationError err = new ValidationError(Instant.now(), status.value(), e.getMessage(), request.getPath().toString());
+        ValidationError err = new ValidationError(Instant.now(), status.value(), "Dados Inválidos", request.getPath().toString());
         for (FieldError f : e.getBindingResult().getFieldErrors()){
             err.addError(f.getField(), f.getDefaultMessage());
         }
