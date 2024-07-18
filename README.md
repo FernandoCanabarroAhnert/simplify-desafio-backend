@@ -28,6 +28,7 @@ API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.c
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
 - [Spring WebFlux](https://docs.spring.io/spring-framework/reference/web/webflux.html)
+- [Spring Data + R2DBC](https://docs.spring.io/spring-framework/reference/data-access/r2dbc.html)
 - [Docker](https://www.docker.com/)
 - [SpringDoc OpenAPI 3](https://springdoc.org/v2/#spring-webflux-support)
 - [H2](https://www.baeldung.com/spring-boot-h2-database)
@@ -36,14 +37,16 @@ API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.c
 - [Mockito](https://site.mockito.org/)
 - [StepVerifier](https://www.baeldung.com/reactive-streams-step-verifier-test-publisher)
 - [WebTestClient](https://docs.spring.io/spring-framework/reference/testing/webtestclient.html)
+- [Jacoco](https://www.eclemma.org/jacoco/)
 - [Bean Validation](https://docs.spring.io/spring-framework/reference/core/validation/beanvalidation.html)
 
 ## Práticas adotadas ✨
 
 - SOLID, DRY, YAGNI, KISS
-- API REST
+- API REST reativa na web e na camada de banco
+- Uso de DTOs para a API
 - Injeção de Dependências
-- Testes Unitários e Teste de Integração
+- Testes Automatizados
 - Tratamento de Exceções Personalizada
 - Geração automática do Swagger com a OpenAPI 3
 
@@ -54,9 +57,8 @@ Alguns diferenciais que não foram solicitados no desafio:
 * Programação Reativa
 * Conteinerização da Aplicação
 * TDD - Test Driven Development
+* Testes de Cobertura com Jacoco
 * Tratamento de exceções
-* Validações com Constraints Customizados
-* Testes Unitários
 * Testes Unitários e Teste de Integração
 * Documentação Swagger
 
