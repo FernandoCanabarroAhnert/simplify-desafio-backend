@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.fernandocanabarro.desafio_simplify.config.TodoControllerOpenAPI;
 import com.fernandocanabarro.desafio_simplify.dtos.TodoDTO;
 import com.fernandocanabarro.desafio_simplify.services.TodoService;
 
@@ -22,7 +23,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/todos")
-public class TodoController {
+public class TodoController implements TodoControllerOpenAPI{
 
     @Autowired
     private TodoService service;
