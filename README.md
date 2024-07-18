@@ -94,7 +94,7 @@ mvn clean install
 ```
 - Executar o container:
 ```
-docker run --name place-service -p 8080:8080  -d place-service:0.0.1-SNAPSHOT
+docker run --name desafio-simplify -p 8080:8080  -d desafio-simplify:0.0.1-SNAPSHOT
 ```
 
 ## API Endpoints 📚
