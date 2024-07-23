@@ -1,8 +1,9 @@
 # Desafio Backend: Lista de Tarefas 📚
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![SpringWebFlux](https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![PhpMyAdmin](https://img.shields.io/badge/PhpMyAdmin-6f42c1?style=for-the-badge&logo=phpmyadmin&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify) para pessoas desenvolvedoras backend júnior, que se candidatam para a Simplify.
@@ -33,6 +34,7 @@ API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.c
 - [SpringDoc OpenAPI 3](https://springdoc.org/v2/#spring-webflux-support)
 - [H2](https://www.baeldung.com/spring-boot-h2-database)
 - [MySQL](https://www.mysql.com/)
+- [PhpMyAdmin](https://www.phpmyadmin.net/)
 - [JUnit5](https://junit.org/junit5/)
 - [Mockito](https://site.mockito.org/)
 - [StepVerifier](https://www.baeldung.com/reactive-streams-step-verifier-test-publisher)
